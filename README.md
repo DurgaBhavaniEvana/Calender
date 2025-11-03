@@ -1,4 +1,5 @@
-<img width="1318" height="643" alt="image" src="https://github.com/user-attachments/assets/09c16418-9f3e-4b94-ba39-ba6e96227932" /># 📅 2025 Calendar
+![Uploading image.png…]()
+# 📅 2025 Calendar
 
 A simple, elegant **static 2025 Calendar** built using **HTML** and **CSS** only.
 This project visually displays all 12 months of the year 2025 in a clean tabular format — perfect for learning basic layout design, table structure, and CSS styling.
