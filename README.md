@@ -1,4 +1,3 @@
-![Uploading image.png…]()
 # 📅 2025 Calendar
 
 A simple, elegant **static 2025 Calendar** built using **HTML** and **CSS** only.
@@ -66,6 +65,6 @@ This project helps practice:
 Contributions and suggestions are always welcome!
 If you'd like to improve styling or add interactivity (like highlighting current date using JavaScript), feel free to fork and enhance the project.
 
----
+
 
 ⭐ **If you found this project helpful, don’t forget to star the repository!**
