@@ -4,7 +4,7 @@
 A simple, elegant **static 2025 Calendar** built using **HTML** and **CSS** only.
 This project visually displays all 12 months of the year 2025 in a clean tabular format — perfect for learning basic layout design, table structure, and CSS styling.
 
----
+
 
 ## 🌟 Features
 
@@ -14,14 +14,14 @@ This project visually displays all 12 months of the year 2025 in a clean tabular
 * ✅ Fully responsive layout (adjusts to screen size)
 * ✅ No JavaScript — pure HTML & CSS project
 
----
+
 
 ## 🛠️ Technologies Used
 
 * **HTML5** – for the structure of the calendar
 * **CSS3** – for styling, borders, colors, and layout
 
----
+
 
 ## 🧩 Folder Structure
 
@@ -32,7 +32,7 @@ This project visually displays all 12 months of the year 2025 in a clean tabular
 └── calendar.css      # Styles for the calendar
 ```
 
----
+
 
 
 ## 💡 How to Run Locally
@@ -48,7 +48,7 @@ This project visually displays all 12 months of the year 2025 in a clean tabular
    * Double-click `index.html`, or
    * Right-click → “Open with Live Server” (if using VS Code)
 
----
+
 
 ## 🧠 Learning Highlights
 
@@ -59,7 +59,7 @@ This project helps practice:
 * Applying **CSS selectors**, **IDs**, and **class styling**
 * Organizing a project folder for GitHub
 
----
+
 
 ## 🤝 Contributing
 
