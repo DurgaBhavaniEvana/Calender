@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    background-image:linear-gradient(40deg,hotpink,aqua,hotpink,aqua,hotpink,aqua,hotpink,aqua);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke: 1px solid black;
+}
+#div1{
+    height: 100vh;
+    background-image: url(https://media.gettyimages.com/id/1500180936/vector/online-shopping-and-delivery-concept-male-courier-delivering-parcel-to-female-customer.jpg?s=612x612&w=gi&k=20&c=RtNJ2xj_JG63BU8ZjytrZsicNLm3pL_DqLlADVyK_q0=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#table-1{
+     width: 60%;
+     margin-left: 250px;
+     border-collapse: collapse;
+}
+
+#table-1>thead{
+    background-color: hsla(0, 20%, 99%, 0.9);
+    height: 35px;
+    font-size: 25px;
+}
+#table-1 tbody{
+    background-color: hsla(0, 20%, 99%, 0.75);
+}
+#subtable-1{
+    width: 97%;
+     /* border: 2px solid white; */
+     border-collapse: collapse;
+     margin: 12px;
+}
+#subtable-1 thead{
+    /* background-color: hsla(30, 8%, 65%, 0.3); */
+    background-color: #fff;
+    height: 40px;
+    font-size: 20px;
+}
+#subtable-1 tbody td{
+    text-align: center;
+    height: 35px;
+}
+#subtable-1 tbody tr:nth-child(even){
+    /* background-color: rgb(33, 33, 150); */
+    background-image: linear-gradient(30deg,navy,blue,navy,blue,navy);
+    /* background-image: linear-gradient(30deg,skyblue,#cbf6fd,skyblue,#cbf6fd,skyblue); */
+    color: white;
+}
+#subtable-1 tbody tr:nth-child(odd){
+    /* background-color: rgb(9, 9, 189); */
+    background-image: linear-gradient(60deg,navy,blue,navy,blue,navy);
+     /* background-image: linear-gradient(30deg,skyblue,#cbf6fd,skyblue,#cbf6fd,skyblue); */
+    color: white;
+}
+#subtable-1 tbody tr:hover{
+    /* background-color: white; */
+    background-image: linear-gradient(30deg,white,rgba(165, 165, 248, 0.205),white);
+    color: black;
+    font-size: 18px;
+    transition: 1s;
+}
+
+
+/*table 2*/
+#div2{
+    margin-left: 200px;
+}
+#ht2::first-letter,.ht2{
+    font-size: 40px;
+}
+#table-2,#table-2 tr,#table-2 td{
+    /* border:2px solid black; */
+    border-collapse: collapse;
+}
+#table-2 #pad{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-bottom: 30px; */
+}
+#table-2 thead .tr1 th{
+    height: 30px;
+    color: blue;
+    font-size: 20px;
+}
+#table-2 thead .tr1 th::first-letter{
+    font-size: 25px;
+}
+#table-2 tbody tr td:first-child{
+    width: 120px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+a:hover{
+    font-size: 15px;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+#sst-1{
+    border-collapse: collapse;
+    width: 104%;
+}
+#sst-1 thead tr{
+    background-image: linear-gradient(40deg,black,lightgray,black,lightgray,black);
+    color: #fff;
+    border: 2px solid white;
+}
+#sst-1 thead tr th{
+    border-radius: 10px;
+    height: 30px;
+}
+#sst-1 tbody tr td:first-child{
+ border-radius: 10px 0px 0px 10px;
+}
+#sst-1 tbody tr td:last-child{
+ border-radius: 0px 10px 10px 0px;
+}
+#sst-1 tr td{
+    text-align: center;
+    background-color: rgb(255, 231, 234);
+}
+#sst-1 tr td:hover{
+  background-image: linear-gradient(60deg,hotpink,lavender,hotpink,lavender);
+}
+/* #sst-1 tr td:nth-child(odd):hover{
+  background-image: linear-gradient(rgb(189, 183, 183),rgb(231, 102, 102),rgb(201, 194, 194),rgb(241, 106, 106));
+} */
+#table-2 .tr1{
+    background-image: linear-gradient(40deg,hotpink,pink,hotpink,pink,hotpink);
+}
+#sst-2{
+    border-collapse: collapse;
+    width: 104%;
+}
+#sst-2 tr td{
+    text-align: center;
+    height: 30px;
+}
+#sst-2 thead tr th:first-child{
+ border-radius: 10px 0px 0px 10px;
+}
+#sst-2 thead tr th:last-child{
+ border-radius: 0px 10px 10px 0px;
+}
+#sst-2 thead tr{
+    background-image: linear-gradient(20deg,hotpink,pink,hotpink,pink);
+    /* background-color: black; */
+    color: #fff;
+    border: 2px solid white;
+    height: 30px;
+}
+#sst-2 tbody tr:nth-child(odd){
+    background-color: pink;
+}
+#sst-2 tbody tr td:first-child{
+ border-radius: 10px 0px 0px 10px;
+}
+#sst-2 tbody tr td:last-child{
+ border-radius: 0px 10px 10px 0px;
+}
+#sst-2 tbody tr:nth-child(even){
+    background-color: rgb(253, 207, 214);
+}
+#sst-2 tbody tr:hover{
+    background-color: aliceblue;
+}
+
+
+/*table 3*/
+#div3{
+    margin-left: 300px;
+}
+#s1,#s2,#s3,#s4,.b{
+    background-color: black;
+}
+#b1,#b2,#b3,#b4{
+    background-color: black;
+}
+.a{
+    color: aqua;
+}
+.v{
+    color: violet;
+}
+.o{
+    color: orange;
+}
+.r{
+    color: red;
+}
+#s1,#b1{
+    color: aqua;
+}
+#s2,#b2{
+    color: violet;
+}
+#s3,#b3{
+    color: orange;
+}
+#s4,#b4{
+    color: red;
+}
+#table-3{
+    border-collapse: collapse;
+    width: 70%;
+    /* border:2px solid black; */
+    background-color: black;
+    color: #fff;
+}
+#d1,#d2,#d3,#d4{
+    padding: 10px;
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid white;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    /* box-shadow: 0 0 10px aqua; */
+}
+#table-3 .sub{
+    background-image: linear-gradient(rgb(10, 10, 10),rgb(17, 17, 17));
+    margin: 13px;
+    text-align: center;
+    width: 85%;
+}
+#table-3 .sub:hover{
+    border: 2px solid white;
+    width: 92%;
+}
+#table-3 .sub tr td{
+    height: 30px;
+}
+#table-3 .sub tr td{
+    border-bottom: 1px solid rgb(82, 79, 79);
+}
+#table-3 .sub tr:last-child td,#table-3 .sub tr:first-child td{
+    border-bottom: none;
+}
+#d1{
+   background-image: linear-gradient(rgb(16, 248, 248),rgb(165, 245, 245));
+   box-shadow: 0 0 10px aqua;
+}
+#d2{
+   background-image: linear-gradient(rgb(218, 9, 218),rgb(240, 151, 240));
+   box-shadow: 0 0 10px violet;
+}
+#d4{
+   background-image: linear-gradient(rgb(252, 14, 14),rgb(248, 116, 116));
+   box-shadow: 0 0 10px red;
+}
+#d3{
+  background-image: linear-gradient(rgb(252, 94, 22),orange);
+   box-shadow: 0 0 10px orange;
+}
+
+
+/*table-4*/
+#table-4 li{
+    list-style-type: none;
+}
+#table-4{
+    margin-left: 100px;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: black;
+    color: #fff;
+}
+#subt4-1{
+    background-image: linear-gradient(black,rgb(27, 27, 27));
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    /* margin-left: 10px; */
+}
+#subt4-1 thead{
+    height:45px;
+    background-color: rgb(29, 28, 28);
+    font-size: 35px;
+}
+#subt4-1 td{
+    height: 35px;
+}
+#table-4 #subt4-2 .fd1:hover{
+   border-radius: 0px 50px; 
+}
+#subt4-1 td:hover{
+    background-color: black;
+    box-shadow: 0 0 1px white;
+    /* border:2px solid white; */
+}
+#subt4-2{
+    background-image: linear-gradient(black,rgb(27, 27, 27));
+    border-collapse: collapse;
+    width: 100%;
+}
+#table-4 #subt4-2 thead tr{
+    background-image: linear-gradient(30deg,grey,lightgray,grey);
+    height: 45px;
+    font-size: 35px;
+}
+#subt4-2 .fd1{
+    width: 200px;
+    height: 100px;
+    border-radius: 50px 0px;
+    text-align: center;
+}
+#subt4-2 #fd1{
+    background-image: linear-gradient(30deg,rgb(201, 139, 139),brown);
+}
+#subt4-2 #fd2{
+  background-image: linear-gradient(30deg,rgb(139, 123, 175),blue);
+}
+#subt4-2 #fd3{
+background-image: linear-gradient(30deg,rgb(240, 163, 205),hotpink);
+}
+#subt4-2 #fd4{
+background-image: linear-gradient(30deg,rgb(119, 206, 165),green);
+}
+#sst4-1 #fd5{
+     width: 320px;
+    height: 150px;
+    border-radius: 30px;
+    text-align: center;
+    background-image: linear-gradient(30deg,rgb(119, 141, 241),blue);
+}
+#table-4 #sst4-1{
+    box-shadow: 0 0 4px white;
+    background-image: linear-gradient(30deg,grey,black);
+}
+#table-4 #sst4-1 #str td:hover{
+  /* box-shadow: 0 0 2px white; */
+  border: 2px solid white;
+}
+/* #table-4 #subt4-2 tr> td:hover{
+    border: 2px solid white;
+    box-shadow: 0 0 2px white;
+} */
+
+/*table 5*/
+#table-5,#table-5>tbody>tr>td{
+    /* border:2px solid black; */
+    border-collapse: collapse;
+    text-align: center;
+}
+#table-5>tbody>tr>td{
+  padding-bottom: 4px;
+}
+#table-5>div>img{
+    border-radius: 3px 3px 0px 0px;
+}
+#table-5{
+    background-image: linear-gradient(30deg,rgb(253, 202, 228),rgb(248, 37, 202),rgb(243, 183, 213),rgb(248, 37, 202));
+}
+#table-5>tbody>tr>td{
+    border-right:1px solid blue;
+    border-bottom:1px solid blue;
+}
+#table-5>tbody>tr>td:last-child{
+    border-right: none;
+}
+#table-5>tbody>tr:last-child td{
+    border-bottom: none;
+}
+#table-5 .div1{
+    text-align: center;
+    width: 220px;
+    height: 245px;
+    background-color: rgb(232, 250, 250);
+    border-radius: 10px;
+    /* width: 250px; */
+}
+/* #table-5 >tbody{
+    background-image: linear-gradient(30deg,grey,white,grey);
+} */
+/* #table-5>tbody>tr>td:nth-child(odd){
+    background-color: aqua;
+}
+ #table-5>tbody>tr>td:nth-child(even){
+    background-color: hotpink;
+ } */
+ #table-5 .subt{
+    border-collapse: collapse;
+ }
+ /* #table-5 .subt .mdate{ 
+     border-bottom: 3px solid green; 
+     background-image: linear-gradient(30deg,voilet,hotpink,pink); 
+ }*/
+ #table-5{
+    margin-left: 120px;
+ }
+ #table-5 .subt thead tr th{
+    width:10px;
+    padding: 2px;
+    color: brown;
+ }
+ #table-5 .subt tbody tr td:first-child{
+    color: red;
+ }
+ #table-5 .subt tbody tr td{
+    color: blue;
+ }
+ #table-5>tbody>tr>td>.md{
+    background-color: bisque;
+    width: 220px;
+    border-radius: 5px;
+   
+ }
+ #table-5 .subt tbody tr td:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 5px black;
+    border-bottom: none;
+ }
+ #table-5 span{
+    font-weight: bold;
+ }
+ #table-5 .span1{
+    font-weight: bold;
+    font-size: 35px;
+ }
